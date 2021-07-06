@@ -1,0 +1,154 @@
+body{
+    margin-top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    font-family: 'Uchen', serif;
+}
+#header{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(rgb(228, 216, 203), rgb(231, 231, 206));
+}
+.topnav {
+    margin-top: 0%;
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a {
+    float: left;
+    text-decoration: lawngreen;
+    font-size: 20px;
+    color: blanchedalmond;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+#sec-healthy-food{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width{
+
+    width: 50%;
+    padding: 40px 60px;
+}
+h1{
+    font-size: 40px;
+}
+.orangecolor{
+    color: orange;
+}
+p{
+    font-size: 20px;
+}
+.link-btn{
+    text-decoration: none;
+    size: 1000px;
+    padding: 10px 50px;
+    font-weight: 800;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(216, 146, 16), rgb(10, 145, 10));
+}
+#sec-about-me{
+    display: flex;
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+.about-me{
+    padding-top: 70px ;
+}
+.sec-my-recipes-services{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.recipe-description{
+    display: block;
+    text-align: center;
+    height: 30%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.parent-div-recipe-service{
+    display: flex;
+}
+.box{
+    display: block;
+    width: 25%;
+    height: 100%;
+    margin: 4%;
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: burlywood;
+    box-shadow: 10px 10px 5px rgb(226, 126, 173);
+}
+.img-recipe-service{
+    width: 320px;
+    height: 200px;
+    padding: 15px;
+}
+.recipe-service-text{
+    width: 320px;
+    height: 200px;
+    padding: 15px;
+}
+#contact-us{
+    display: flex;
+    margin: 5%;
+    background-image: linear-gradient(rgba(204, 121, 121, 0.507), cyan);
+}
+.half-width
+{
+    width: 40%;
+}
+
+.parent-follower{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid;
+    border-color: rgb(221, 84, 84);
+    border-radius: 10px;
+}
+.follower{
+    display: block;
+    width: 25%;
+    height: 100%;
+    margin: 8%;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#copywrite{
+    margin-bottom: 0;
+}
